@@ -1,12 +1,6 @@
-public class Oval implements Shape {
-    private String shapeName;
-
+public class Oval extends Shape {
     public Oval(String shapeName) {
-        this.shapeName = shapeName;
+        super(shapeName);
     }
 
-    @Override
-    public String getShapeName() {
-        return shapeName;
-    }
 }

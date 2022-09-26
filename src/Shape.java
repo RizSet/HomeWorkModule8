@@ -1,8 +1,12 @@
 import javax.xml.namespace.QName;
 import java.security.PublicKey;
 
-public interface Shape {
-
-    String getShapeName();
-
+public abstract class Shape {
+    protected String shapeName;
+    public Shape(String shapeName){
+        this.shapeName = shapeName;
+    }
+    public String getShapeName(){
+            return shapeName;
+    }
 }

@@ -1,12 +1,6 @@
-public class Triangle implements Shape {
-    private String shapeName;
-
+public class Triangle extends Shape {
     public Triangle(String shapeName) {
-        this.shapeName = shapeName;
+        super(shapeName);
     }
 
-    @Override
-    public String getShapeName() {
-        return shapeName;
-    }
 }

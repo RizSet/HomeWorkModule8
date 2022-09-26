@@ -1,12 +1,6 @@
-public class Quad implements Shape {
-    private String shapeName;
-
+public class Quad extends Shape {
     public Quad(String shapeName) {
-        this.shapeName = shapeName;
+        super(shapeName);
     }
 
-    @Override
-    public String getShapeName() {
-        return shapeName;
-    }
 }

@@ -1,12 +1,6 @@
-public class Octagon implements Shape {
-    private String shapeName;
-
+public class Octagon extends Shape {
     public Octagon(String shapeName) {
-        this.shapeName = shapeName;
+        super(shapeName);
     }
 
-    @Override
-    public String getShapeName() {
-        return shapeName;
-    }
 }
